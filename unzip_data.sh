@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the list of directories containing zip files
-directories=("vert_left" "vert_right")
+directories=("vert_left" "vert_right" "horz_left" "horz_right")
 
 # Loop through each directory in the list
 for dir in "${directories[@]}"; do
